@@ -136,3 +136,13 @@ const calcAverage = function (arr) {
 };
 
 console.log(calcAverage([23, 22, 34, 56]));
+
+const even_or_odd = (number) => {
+  // Your solution
+  return number % 2 === 0 ? "even" : "odd";
+};
+
+console.log(even_or_odd(0)); // 'Even'
+console.log(even_or_odd(2)); // 'Even'
+console.log(even_or_odd(3)); // 'Odd'
+console.log(even_or_odd(-3)); // 'Odd'
